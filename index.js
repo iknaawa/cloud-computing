@@ -36,7 +36,7 @@ app.use(router);
 
 // Route untuk root
 app.get('/', (req, res) => {
-    res.send('Welcome to the API!');
+    res.send('Welcome to the API Monisick App!');
 });
 
 const PORT = process.env.PORT || 5000;
